@@ -1,0 +1,5 @@
+<radialGradient id="check_gradient">
+  <stop offset="0%" stop-color="#615468" stop-opacity="1.0" />
+  <stop offset="50%" stop-color="#514657" stop-opacity="1.0" />
+  <stop offset="100%" stop-color="#413845" stop-opacity="0.0" />
+</radialGradient>
