@@ -14,6 +14,11 @@ use api::{RequestBody, RequestParams};
 use render::Render;
 use theme::Theme;
 
+fn json_body() -> impl Filter<Extract = (RequestParams,), Error = warp::Rejection> + Clone {
+    warp::body::content_length_limit(1024 * 16)
+        .and(warp::body::json())
+}
+
 #[derive(StructOpt)]
 struct Opt {
     /// Listen on this address
@@ -46,6 +51,11 @@ fn example(theme: &'static Theme) -> impl warp::Reply {
     game(theme, RequestBody::example())
 }
 
+fn from_pgn(theme: &'static Theme, req: RequestParams) -> impl warp::Reply {
+    game(theme, RequestBody::from_pgn(req))
+}
+
+
 #[tokio::main]
 async fn main() {
     let opt = Opt::from_args();
@@ -70,7 +80,13 @@ async fn main() {
         .map(move || theme)
         .map(example);
 
-    warp::serve(example_route.or(image_route).or(game_route))
+    let from_pgn_route = warp::path!("from_pgn.gif")
+        .and(warp::post())
+        .map(move || theme)
+        .and(json_body())
+        .map(from_pgn);
+
+    warp::serve(example_route.or(from_pgn_route).or(image_route).or(game_route))
         .run(bind)
         .await;
 }

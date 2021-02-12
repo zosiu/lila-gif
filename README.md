@@ -4,11 +4,7 @@ lila-gif
 Webservice to render Gifs of chess positions and games, and stream them
 frame by frame.
 
-![Example: DrDrunkenstein vs. Zhigalko_Sergei](/example.gif)
-
-size | render time | frames | colors | width | height
---- | --- | --- | --- | --- | ---
-338 KiB | ~150 ms | 93 | 63 | 720 px | 840 px
+![example](/example.gif)
 
 Usage
 -----
@@ -30,6 +26,17 @@ OPTIONS:
 
 HTTP API
 --------
+
+### `POST http://localhost:6175/from_pgn.gif`
+
+```sh
+curl -X POST \
+-H "Accept: application/json" \
+-H "Content-type: application/json" \
+-d '{"fen":"8/8/8/4k3/8/8/3Q4/4K3 w - - 0 1",
+     "pgn":"1. Qd7 Ke4 2. Kf2 Ke5 3. Kf3 Kf6 4. Kf4 Kg6 5. Qe7 Kh6 6. Kf5 Kh5 7. Qg5# *"}' \
+http://localhost:6175/from_pgn.gif --output your.gif
+```
 
 ### `GET /image.gif`
 
@@ -84,7 +91,7 @@ on every possible background. This allows preparing a minimal color palette
 ahead of time. (Pieces are not just black and white, but need other colors
 for anti-aliasing on the different background colors).
 
-![Sprite](/theme/sprite.gif)
+![Sprite](/theme/sprite_blue_kosal.gif)
 
 All thats left to do at runtime, is copying sprites and Gif encoding.
 More than 95% of the rendering time is spent in LZW compression.
@@ -101,7 +108,8 @@ lila-gif is licensed under the GNU Affero General Public License, version 3 or
 any later version, at your option.
 
 The generated images include text in
-[Noto Sans](https://fonts.google.com/specimen/Noto+Sans) (Apache License 2.0)
+[Noto Sans](https://fonts.google.com/specimen/Noto+Sans) (Apache License 2.0),
+a piece set from [lichess](https://github.com/ornicar/lila/tree/master/public/piece/kosal) (GNU Affero General Public License 3),
 and a piece set by
 [Colin M.L. Burnett](https://en.wikipedia.org/wiki/User:Cburnett)
 (GFDL or BSD or GPL).

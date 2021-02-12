@@ -42,6 +42,8 @@ pub type PlayerName = ArrayString<[u8; 100]>; // length limited to prevent dos
 
 pub type Comment = ArrayString<[u8; 255]>; // strict length limit for gif comments
 
+pub type PGN = ArrayString<[u8; 1024]>;
+
 #[derive(Copy, Clone)]
 pub enum CheckSquare {
     No,
@@ -126,6 +128,7 @@ pub struct RequestParams {
     pub check: CheckSquare,
     #[serde(default)]
     pub orientation: Orientation,
+    pub pgn: Option<PGN>
 }
 
 #[derive(Deserialize)]
@@ -195,6 +198,50 @@ impl RequestBody {
             comment: Some(Comment::from("https://lichess.org/Q0iQs5Zi").unwrap()),
             white: Some(PlayerName::from("GM DrDrunkenstein (2888)").unwrap()),
             black: Some(PlayerName::from("GM Zhigalko_Sergei (2895)").unwrap()),
+            orientation: Orientation::White,
+            delay: 50,
+            frames: frames,
+        }
+    }
+}
+
+impl RequestBody {
+    pub fn from_pgn(params: RequestParams) -> RequestBody {
+        let pgn = params.pgn.unwrap();
+        let pgn_moves: Vec<&str> = pgn.split(" ").collect();
+        let mut frames = Vec::with_capacity(pgn_moves.len() + 1);
+        let mut pos: Chess = params.fen.position().unwrap();
+
+        frames.push(RequestFrame {
+            fen: Fen::from_setup(&pos),
+            check: if pos.is_check() { CheckSquare::Yes } else { CheckSquare::No },
+            last_move: None,
+            delay: Some(200),
+        });
+
+        for pgn_move in pgn_moves {
+            if pgn_move.trim().is_empty() || pgn_move.ends_with(".") || pgn_move.ends_with("*") {
+                continue;
+            }
+
+            let san: San = pgn_move.parse().unwrap();
+            let m = san.to_move(&pos).unwrap();
+            pos.play_unchecked(&m);
+
+            frames.push(RequestFrame {
+                fen: Fen::from_setup(&pos),
+                check: if pos.is_check() { CheckSquare::Yes } else { CheckSquare::No },
+                last_move: None,
+                delay: None,
+            })
+        }
+
+        frames.last_mut().unwrap().delay = Some(300);
+
+        RequestBody {
+            comment: None,
+            white: None,
+            black: None,
             orientation: Orientation::White,
             delay: 50,
             frames: frames,
