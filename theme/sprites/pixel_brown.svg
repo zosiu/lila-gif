@@ -1,0 +1,74 @@
+<svg xmlns:ns0="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 128 128"><defs><g id="white-pawn"><ns0:metadata>Made with Pixels to Svg https://codepen.io/shshaw/pen/XbxvNj</ns0:metadata>
+<ns0:path stroke="#000000" d="M6 2h4M5 3h1M10 3h1M5 4h1M10 4h1M5 5h1M10 5h1M6 6h1M9 6h1M5 7h1M10 7h1M5 8h1M10 8h1M6 9h1M9 9h1M5 10h1M10 10h1M4 11h1M11 11h1M4 12h1M11 12h1M4 13h8" />
+<ns0:path stroke="#fdfdfd" d="M6 3h1" />
+<ns0:path stroke="#e1e1e1" d="M7 3h2M6 4h1M6 7h2M6 10h1M5 11h2M5 12h1" />
+<ns0:path stroke="#a7a7a7" d="M9 3h1M9 4h1M9 5h1M8 6h1M9 7h1M7 8h3M8 9h1M9 10h1M10 11h1M6 12h5" />
+<ns0:path stroke="#c1c1c1" d="M7 4h2M6 5h3M7 6h1M8 7h1M6 8h1M7 9h1M7 10h2M7 11h3" />
+</g><g id="white-knight"><ns0:metadata>Made with Pixels to Svg https://codepen.io/shshaw/pen/XbxvNj</ns0:metadata>
+<ns0:path stroke="#000000" d="M4 1h4M4 2h1M8 2h3M5 3h1M11 3h1M4 4h1M12 4h1M3 5h1M12 5h1M2 6h1M8 6h1M12 6h1M2 7h1M5 7h3M12 7h1M3 8h2M7 8h1M12 8h1M6 9h1M12 9h1M5 10h1M11 10h1M4 11h1M11 11h1M4 12h8M3 13h1M12 13h1M3 14h10" />
+<ns0:path stroke="#fdfdfd" d="M5 2h1M5 11h1M4 13h1" />
+<ns0:path stroke="#e1e1e1" d="M6 2h1M6 3h1M5 4h1M4 5h1M3 6h1M3 7h1M8 7h1M8 8h1M7 9h1M6 10h1M6 11h1M5 13h1" />
+<ns0:path stroke="#c1c1c1" d="M7 2h1M7 3h3M7 4h4M5 5h3M9 5h2M4 6h3M9 6h2M4 7h1M9 7h2M9 8h2M8 9h3M7 10h3M7 11h2M6 13h3" />
+<ns0:path stroke="#a7a7a7" d="M10 3h1M11 4h1M8 5h1M11 5h1M7 6h1M11 6h1M11 7h1M11 8h1M11 9h1M10 10h1M9 11h2M9 13h3" />
+<ns0:path stroke="#494949" d="M6 4h1" />
+</g><g id="white-bishop"><ns0:metadata>Made with Pixels to Svg https://codepen.io/shshaw/pen/XbxvNj</ns0:metadata>
+<ns0:path stroke="#000000" d="M7 1h2M6 2h1M9 2h1M6 3h1M9 3h1M7 4h2M6 5h1M9 5h1M5 6h1M10 6h1M4 7h1M9 7h1M11 7h1M4 8h1M8 8h1M11 8h1M4 9h1M11 9h1M4 10h1M11 10h1M5 11h1M10 11h1M4 12h8M3 13h1M12 13h1M3 14h10" />
+<ns0:path stroke="#fdfdfd" d="M7 2h1M6 6h1M5 7h1" />
+<ns0:path stroke="#a7a7a7" d="M8 2h1M8 3h1M8 5h1M10 7h1M10 8h1M10 9h1M10 10h1M9 11h1M9 13h3" />
+<ns0:path stroke="#e1e1e1" d="M7 3h1M5 8h1M5 9h1M5 10h1M6 11h1M4 13h2" />
+<ns0:path stroke="#c1c1c1" d="M7 5h1M7 6h2M6 7h2M6 8h2M9 8h1M6 9h4M6 10h4M7 11h2M6 13h3" />
+</g><g id="white-rook"><ns0:metadata>Made with Pixels to Svg https://codepen.io/shshaw/pen/XbxvNj</ns0:metadata>
+<ns0:path stroke="#000000" d="M3 1h3M7 1h6M3 2h1M5 2h1M7 2h1M12 2h1M3 3h1M5 3h3M12 3h1M3 4h1M12 4h1M3 5h10M4 6h1M11 6h1M5 7h6M5 8h1M10 8h1M5 9h1M10 9h1M5 10h1M10 10h1M4 11h1M11 11h1M3 12h10M2 13h1M13 13h1M2 14h12" />
+<ns0:path stroke="#fdfdfd" d="M4 2h1M5 6h1M5 11h1M3 13h3" />
+<ns0:path stroke="#c1c1c1" d="M8 2h3M8 3h3M5 4h5M7 6h2M7 8h2M7 9h2M7 10h2M7 11h2M7 13h3" />
+<ns0:path stroke="#a7a7a7" d="M11 2h1M11 3h1M10 4h2M9 6h2M9 8h1M9 9h1M9 10h1M9 11h2M10 13h3" />
+<ns0:path stroke="#e1e1e1" d="M4 3h1M4 4h1M6 6h1M6 8h1M6 9h1M6 10h1M6 11h1M6 13h1" />
+</g><g id="white-queen"><ns0:metadata>Made with Pixels to Svg https://codepen.io/shshaw/pen/XbxvNj</ns0:metadata>
+<ns0:path stroke="#000000" d="M7 1h2M6 2h1M9 2h1M6 3h1M9 3h1M7 4h2M1 5h1M14 5h1M2 6h2M7 6h2M12 6h2M2 7h1M4 7h1M6 7h1M9 7h1M11 7h1M13 7h1M2 8h1M5 8h1M10 8h1M13 8h1M3 9h1M12 9h1M3 10h1M12 10h1M4 11h1M11 11h1M4 12h8M3 13h1M12 13h1M3 14h10" />
+<ns0:path stroke="#fdfdfd" d="M7 2h1M3 7h1M3 8h1" />
+<ns0:path stroke="#a7a7a7" d="M8 2h1M8 3h1M12 7h1M11 8h2M11 9h1M10 10h2M9 11h2M9 13h3" />
+<ns0:path stroke="#e1e1e1" d="M7 3h1M7 7h1M4 8h1M6 8h1M4 9h2M4 10h2M5 11h1M4 13h2" />
+<ns0:path stroke="#c1c1c1" d="M8 7h1M7 8h3M6 9h5M6 10h4M6 11h3M6 13h3" />
+</g><g id="white-king"><ns0:metadata>Made with Pixels to Svg https://codepen.io/shshaw/pen/XbxvNj</ns0:metadata>
+<ns0:path stroke="#000000" d="M7 1h2M6 2h1M9 2h1M6 3h1M9 3h1M3 4h3M7 4h2M10 4h3M2 5h1M6 5h1M9 5h1M13 5h1M2 6h1M5 6h1M7 6h2M10 6h1M13 6h1M2 7h1M6 7h1M9 7h1M13 7h1M2 8h1M4 8h1M11 8h1M13 8h1M3 9h1M5 9h2M9 9h2M12 9h1M3 10h1M12 10h1M4 11h1M11 11h1M4 12h8M3 13h1M12 13h1M3 14h10" />
+<ns0:path stroke="#fdfdfd" d="M7 2h1M3 5h1" />
+<ns0:path stroke="#a7a7a7" d="M8 2h1M8 3h1M12 5h1M12 6h1M12 7h1M12 8h1M11 9h1M10 10h2M9 11h2M9 13h3" />
+<ns0:path stroke="#e1e1e1" d="M7 3h1M3 6h1M3 7h1M3 8h1M4 9h1M4 10h2M5 11h1M4 13h2" />
+<ns0:path stroke="#c1c1c1" d="M4 5h2M10 5h2M6 6h1M9 6h1M7 7h2M7 8h2M7 9h2M6 10h4M6 11h3M6 13h3" />
+</g><g id="black-pawn"><ns0:metadata>Made with Pixels to Svg https://codepen.io/shshaw/pen/XbxvNj</ns0:metadata>
+<ns0:path stroke="#000000" d="M6 2h4M5 3h1M10 3h1M5 4h1M10 4h1M5 5h1M10 5h1M6 6h1M9 6h1M5 7h1M10 7h1M5 8h1M10 8h1M6 9h1M9 9h1M5 10h1M10 10h1M4 11h1M11 11h1M4 12h1M11 12h1M4 13h8" />
+<ns0:path stroke="#6d6d6d" d="M6 3h1M6 7h1M6 10h1M5 11h1" />
+<ns0:path stroke="#494949" d="M7 3h2M6 4h1M7 7h1M6 11h1M5 12h1" />
+<ns0:path stroke="#151515" d="M9 3h1M9 4h1M9 5h1M8 6h1M9 7h1M7 8h3M8 9h1M9 10h1M10 11h1M6 12h5" />
+<ns0:path stroke="#242424" d="M7 4h2M6 5h3M7 6h1M8 7h1M6 8h1M7 9h1M7 10h2M7 11h3" />
+</g><g id="black-knight"><ns0:metadata>Made with Pixels to Svg https://codepen.io/shshaw/pen/XbxvNj</ns0:metadata>
+<ns0:path stroke="#000000" d="M4 1h4M4 2h1M8 2h3M5 3h1M11 3h1M4 4h1M6 4h1M12 4h1M3 5h1M12 5h1M2 6h1M8 6h1M12 6h1M2 7h1M5 7h3M12 7h1M3 8h2M7 8h1M12 8h1M6 9h1M12 9h1M5 10h1M11 10h1M4 11h1M11 11h1M4 12h8M3 13h1M12 13h1M3 14h10" />
+<ns0:path stroke="#6d6d6d" d="M5 2h1M5 11h1" />
+<ns0:path stroke="#494949" d="M6 2h1M6 3h1M5 4h1M4 5h1M3 6h1M3 7h1M8 7h1M8 8h1M7 9h1M6 10h1M6 11h1M4 13h2" />
+<ns0:path stroke="#242424" d="M7 2h1M7 3h3M7 4h4M5 5h3M9 5h2M4 6h3M9 6h2M4 7h1M9 7h2M9 8h2M8 9h3M7 10h3M7 11h2M6 13h3" />
+<ns0:path stroke="#151515" d="M10 3h1M11 4h1M8 5h1M11 5h1M7 6h1M11 6h1M11 7h1M11 8h1M11 9h1M10 10h1M9 11h2M9 13h3" />
+</g><g id="black-bishop"><ns0:metadata>Made with Pixels to Svg https://codepen.io/shshaw/pen/XbxvNj</ns0:metadata>
+<ns0:path stroke="#000000" d="M7 1h2M6 2h1M9 2h1M6 3h1M9 3h1M7 4h2M6 5h1M9 5h1M5 6h1M10 6h1M4 7h1M9 7h1M11 7h1M4 8h1M8 8h1M11 8h1M4 9h1M11 9h1M4 10h1M11 10h1M5 11h1M10 11h1M4 12h8M3 13h1M12 13h1M3 14h10" />
+<ns0:path stroke="#6d6d6d" d="M7 2h1M6 6h1M5 7h1" />
+<ns0:path stroke="#151515" d="M8 2h1M8 3h1M8 5h1M10 7h1M10 8h1M10 9h1M10 10h1M9 11h1M9 13h3" />
+<ns0:path stroke="#494949" d="M7 3h1M7 5h1M5 8h1M5 9h1M5 10h1M6 11h1M4 13h2" />
+<ns0:path stroke="#242424" d="M7 6h2M6 7h2M6 8h2M9 8h1M6 9h4M6 10h4M7 11h2M6 13h3" />
+</g><g id="black-rook"><ns0:metadata>Made with Pixels to Svg https://codepen.io/shshaw/pen/XbxvNj</ns0:metadata>
+<ns0:path stroke="#000000" d="M3 1h3M7 1h6M3 2h1M5 2h1M7 2h1M12 2h1M3 3h1M5 3h3M12 3h1M3 4h1M12 4h1M3 5h10M4 6h1M11 6h1M5 7h6M5 8h1M10 8h1M5 9h1M10 9h1M5 10h1M10 10h1M4 11h1M11 11h1M3 12h10M2 13h1M13 13h1M2 14h12" />
+<ns0:path stroke="#6d6d6d" d="M4 2h1M5 6h1M5 11h1M3 13h1" />
+<ns0:path stroke="#242424" d="M8 2h3M8 3h3M5 4h5M7 6h2M7 8h2M7 9h2M7 10h2M7 11h2M6 13h4" />
+<ns0:path stroke="#151515" d="M11 2h1M11 3h1M10 4h2M9 6h2M9 8h1M9 9h1M9 10h1M9 11h2M10 13h3" />
+<ns0:path stroke="#494949" d="M4 3h1M4 4h1M6 6h1M6 8h1M6 9h1M6 10h1M6 11h1M4 13h2" />
+</g><g id="black-queen"><ns0:metadata>Made with Pixels to Svg https://codepen.io/shshaw/pen/XbxvNj</ns0:metadata>
+<ns0:path stroke="#000000" d="M7 1h2M6 2h1M9 2h1M6 3h1M9 3h1M7 4h2M1 5h1M14 5h1M2 6h2M7 6h2M12 6h2M2 7h1M4 7h1M6 7h1M9 7h1M11 7h1M13 7h1M2 8h1M5 8h1M10 8h1M13 8h1M3 9h1M12 9h1M3 10h1M12 10h1M4 11h1M11 11h1M4 12h8M3 13h1M12 13h1M3 14h10" />
+<ns0:path stroke="#6d6d6d" d="M7 2h1M3 7h1M3 8h1" />
+<ns0:path stroke="#151515" d="M8 2h1M8 3h1M12 7h1M11 8h2M11 9h1M10 10h2M9 11h2M9 13h3" />
+<ns0:path stroke="#494949" d="M7 3h1M7 7h1M4 8h1M6 8h1M4 9h2M4 10h2M5 11h1M4 13h2" />
+<ns0:path stroke="#242424" d="M8 7h1M7 8h3M6 9h5M6 10h4M6 11h3M6 13h3" />
+</g><g id="black-king"><ns0:metadata>Made with Pixels to Svg https://codepen.io/shshaw/pen/XbxvNj</ns0:metadata>
+<ns0:path stroke="#000000" d="M7 1h2M6 2h1M9 2h1M6 3h1M9 3h1M3 4h3M7 4h2M10 4h3M2 5h1M6 5h1M9 5h1M13 5h1M2 6h1M5 6h1M7 6h2M10 6h1M13 6h1M2 7h1M6 7h1M9 7h1M13 7h1M2 8h1M4 8h1M11 8h1M13 8h1M3 9h1M5 9h2M9 9h2M12 9h1M3 10h1M12 10h1M4 11h1M11 11h1M4 12h8M3 13h1M12 13h1M3 14h10" />
+<ns0:path stroke="#6d6d6d" d="M7 2h1M3 5h1" />
+<ns0:path stroke="#151515" d="M8 2h1M8 3h1M12 5h1M12 6h1M12 7h1M12 8h1M11 9h1M10 10h2M9 11h2M9 13h3" />
+<ns0:path stroke="#494949" d="M7 3h1M3 6h1M3 7h1M3 8h1M4 9h1M4 10h2M5 11h1M4 13h2" />
+<ns0:path stroke="#242424" d="M4 5h2M10 5h2M6 6h1M9 6h1M7 7h2M7 8h2M7 9h2M6 10h4M6 11h3M6 13h3" />
+</g><radialGradient id="check_gradient"><stop offset="0%" stop-color="#ff0000" stop-opacity="1.0" /><stop offset="50%" stop-color="#e70000" stop-opacity="1.0" /><stop offset="100%" stop-color="#9e0000" stop-opacity="0.0" /></radialGradient></defs><rect x="64" y="0" width="10" height="16" stroke="none" fill="#262421" /><rect x="74" y="0" width="10" height="16" stroke="none" fill="#bababa" /><rect x="84" y="0" width="10" height="16" stroke="none" fill="#bf811d" /><rect x="94" y="0" width="10" height="16" stroke="none" fill="#b72fc6" /><rect x="104" y="0" width="10" height="16" stroke="none" fill="#706f6e" /><rect x="0" y="0" width="16" height="128" stroke="none" fill="#f0d9b5" /><use xlink:href="#black-pawn" transform="translate(0, 16)" /><use xlink:href="#black-knight" transform="translate(0, 32)" /><use xlink:href="#black-bishop" transform="translate(0, 48)" /><use xlink:href="#black-rook" transform="translate(0, 64)" /><use xlink:href="#black-queen" transform="translate(0, 80)" /><use xlink:href="#black-king" transform="translate(0, 96)" /><rect x="0" y="112" width="16" height="16" fill="url(#check_gradient)" /><use xlink:href="#black-king" transform="translate(0, 112)" /><rect x="16" y="0" width="16" height="128" stroke="none" fill="#b58863" /><use xlink:href="#black-pawn" transform="translate(16, 16)" /><use xlink:href="#black-knight" transform="translate(16, 32)" /><use xlink:href="#black-bishop" transform="translate(16, 48)" /><use xlink:href="#black-rook" transform="translate(16, 64)" /><use xlink:href="#black-queen" transform="translate(16, 80)" /><use xlink:href="#black-king" transform="translate(16, 96)" /><rect x="16" y="112" width="16" height="16" fill="url(#check_gradient)" /><use xlink:href="#black-king" transform="translate(16, 112)" /><rect x="32" y="0" width="16" height="128" stroke="none" fill="#ced26b" /><use xlink:href="#black-pawn" transform="translate(32, 16)" /><use xlink:href="#black-knight" transform="translate(32, 32)" /><use xlink:href="#black-bishop" transform="translate(32, 48)" /><use xlink:href="#black-rook" transform="translate(32, 64)" /><use xlink:href="#black-queen" transform="translate(32, 80)" /><use xlink:href="#black-king" transform="translate(32, 96)" /><rect x="32" y="112" width="16" height="16" fill="url(#check_gradient)" /><use xlink:href="#black-king" transform="translate(32, 112)" /><rect x="48" y="0" width="16" height="128" stroke="none" fill="#aaa23b" /><use xlink:href="#black-pawn" transform="translate(48, 16)" /><use xlink:href="#black-knight" transform="translate(48, 32)" /><use xlink:href="#black-bishop" transform="translate(48, 48)" /><use xlink:href="#black-rook" transform="translate(48, 64)" /><use xlink:href="#black-queen" transform="translate(48, 80)" /><use xlink:href="#black-king" transform="translate(48, 96)" /><rect x="48" y="112" width="16" height="16" fill="url(#check_gradient)" /><use xlink:href="#black-king" transform="translate(48, 112)" /><rect x="64" y="16" width="16" height="112" stroke="none" fill="#f0d9b5" /><use xlink:href="#white-pawn" transform="translate(64, 16)" /><use xlink:href="#white-knight" transform="translate(64, 32)" /><use xlink:href="#white-bishop" transform="translate(64, 48)" /><use xlink:href="#white-rook" transform="translate(64, 64)" /><use xlink:href="#white-queen" transform="translate(64, 80)" /><use xlink:href="#white-king" transform="translate(64, 96)" /><rect x="64" y="112" width="16" height="16" fill="url(#check_gradient)" /><use xlink:href="#white-king" transform="translate(64, 112)" /><rect x="80" y="16" width="16" height="112" stroke="none" fill="#b58863" /><use xlink:href="#white-pawn" transform="translate(80, 16)" /><use xlink:href="#white-knight" transform="translate(80, 32)" /><use xlink:href="#white-bishop" transform="translate(80, 48)" /><use xlink:href="#white-rook" transform="translate(80, 64)" /><use xlink:href="#white-queen" transform="translate(80, 80)" /><use xlink:href="#white-king" transform="translate(80, 96)" /><rect x="80" y="112" width="16" height="16" fill="url(#check_gradient)" /><use xlink:href="#white-king" transform="translate(80, 112)" /><rect x="96" y="16" width="16" height="112" stroke="none" fill="#ced26b" /><use xlink:href="#white-pawn" transform="translate(96, 16)" /><use xlink:href="#white-knight" transform="translate(96, 32)" /><use xlink:href="#white-bishop" transform="translate(96, 48)" /><use xlink:href="#white-rook" transform="translate(96, 64)" /><use xlink:href="#white-queen" transform="translate(96, 80)" /><use xlink:href="#white-king" transform="translate(96, 96)" /><rect x="96" y="112" width="16" height="16" fill="url(#check_gradient)" /><use xlink:href="#white-king" transform="translate(96, 112)" /><rect x="112" y="16" width="16" height="112" stroke="none" fill="#aaa23b" /><use xlink:href="#white-pawn" transform="translate(112, 16)" /><use xlink:href="#white-knight" transform="translate(112, 32)" /><use xlink:href="#white-bishop" transform="translate(112, 48)" /><use xlink:href="#white-rook" transform="translate(112, 64)" /><use xlink:href="#white-queen" transform="translate(112, 80)" /><use xlink:href="#white-king" transform="translate(112, 96)" /><rect x="112" y="112" width="16" height="16" fill="url(#check_gradient)" /><use xlink:href="#white-king" transform="translate(112, 112)" /></svg>
